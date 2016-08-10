@@ -2,6 +2,7 @@ GLUON_SITE_PACKAGES := \
   gluon-mesh-batman-adv-15 \
   gluon-respondd \
   gluon-autoupdater \
+  gluon-authorized-keys \
   gluon-config-mode-autoupdater \
   gluon-config-mode-contact-info \
   gluon-config-mode-core \
@@ -37,7 +38,7 @@ GLUON_SITE_PACKAGES += \
   vnstat
 endif
 
-DEFAULT_GLUON_RELEASE := wup-STARTDATE
+DEFAULT_GLUON_RELEASE := TAL42-STARTDATE
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 GLUON_LANGS ?= de en fr
